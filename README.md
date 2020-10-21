@@ -18,13 +18,18 @@
 * Este diseño presentó algunos errores, donde no se cumplia con los requerimientos básicos de los factores de utilización, esbeltez menor a 300.
 * Este diseño no cumplió con las combinaciones de cargas requeridas.
 * Las barras que presentaron fallas en el diseño fueron las barras inferiores en el eje x e y. 
-
-* Presentó un peso igual a
+  
 
 
 # Diseño final
 
 * El nuevo diseño fue ejecutado de forma similar al anterior, pero esta vez con columnas, como se aprecia en la imagen.
 * Para solucionar el problema anterior, se aumentaron las dimensiones de las barras en cuestión, para así aumentar la rigidez del elemento, cumpliendo finalmente con los dos requisitos.
+*  Las propiedades  de las barras  utilizadas fueron las siguientes:
+* props = [8*cm, 5*mm, 200*GPa, 7600*kg/m**3, 420*MPa]
+* props2 = [12*cm, 15*mm, 200*GPa, 7600*kg/m**3, 420*MPa] (eje x)
+* props3 = [13*cm, 15*mm, 200*GPa, 7600*kg/m**3, 420*MPa] (eje y)
+* El peso final del puente fue 511 toneladas
+
 
 
