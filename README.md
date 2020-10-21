@@ -12,11 +12,19 @@
 ![Captura de pantalla (12)](https://user-images.githubusercontent.com/69210578/96666138-e2d48780-132c-11eb-9fef-0625ebb6f6fc.png)
 
 * Solo incluyendo lo presentado en las imágenes, sin columnas.
+* Para las barras  en el eje x se utilizaron estas propiedades: props:  [8*cm, 5*mm, 200*GPa, 7600*kg/m**3, 420*MPa]
+* Para las barras en relación al eje y,z se utilizaron estas propiedades: props2 = [11*cm, 14*mm, 200*GPa, 7600*kg/m**3, 420*MPa]
+
 * Este diseño presentó algunos errores, donde no se cumplia con los requerimientos básicos de los factores de utilización, esbeltez menor a 300.
-* Este diseño no cumplió con las combinaciones de cargas requeridas
-* Presentó un peso igual a....
+* Este diseño no cumplió con las combinaciones de cargas requeridas.
+* Las barras que presentaron fallas en el diseño fueron las barras inferiores en el eje x e y. 
+
+* Presentó un peso igual a
 
 
 # Diseño final
 
-* El nuevo diseño fue ejecutado de fomra similar al anterior, pero esta vez con columnas, como se aprecia en la imagen.
+* El nuevo diseño fue ejecutado de forma similar al anterior, pero esta vez con columnas, como se aprecia en la imagen.
+* Para solucionar el problema anterior, se aumentaron las dimensiones de las barras en cuestión, para así aumentar la rigidez del elemento, cumpliendo finalmente con los dos requisitos.
+
+
